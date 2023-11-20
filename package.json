@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "profile",
-"author": "Gopal Panigrahi",
+  "author": "Gopal Panigrahi",
   "keywords": [
     "gatsby"
   ],
@@ -14,7 +14,8 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "typecheck": "tsc --noEmit",
-    "lint": "lint-staged",
+    "lint": "eslint .",
+    "lint-staged": "lint-staged",
     "prepare": "husky install"
   },
   "dependencies": {
@@ -30,7 +31,10 @@
     "@types/node": "^20.3.3",
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.6",
-"eslint": "^7.32.0",
+    "@typescript-eslint/eslint-plugin": "^6.11.0",
+    "@typescript-eslint/parser": "^6.11.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-react": "^7.33.2",
     "husky": "^8.0.0",
     "lint-staged": "^14.0.1",
     "prettier": "^3.0.3",

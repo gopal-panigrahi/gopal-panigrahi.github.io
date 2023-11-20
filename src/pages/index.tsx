@@ -1,12 +1,15 @@
 import * as React from "react";
-import type { HeadFC, PageProps } from "gatsby";
+import type {HeadFC, PageProps} from "gatsby";
+import Navbar from "../components/Navbar/Navbar";
+import About from "./About";
 
 const IndexPage: React.FC<PageProps> = () => {
-  return (
-    <main>
-      <h1>Hello World</h1>
-    </main>
-  );
+	return (
+		<>
+			<Navbar />
+			<About />
+		</>
+	);
 };
 
 export default IndexPage;
