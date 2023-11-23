@@ -1,10 +1,10 @@
 import * as React from "react";
 import type {HeadFC, PageProps} from "gatsby";
 import Navbar from "../components/Navbar/Navbar";
-import Home from "./Home";
-import About from "./About";
-import Experience from "./Experience";
-import Education from "./Education";
+import Home from "../components/Home";
+import About from "../components/About";
+import Experience from "../components/Experience";
+import Education from "../components/Education";
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
