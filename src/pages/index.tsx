@@ -8,13 +8,15 @@ import Education from "../components/Education";
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
-    <div className="h-screen bg-green-200">
-      <Navbar />
-      <Home />
+    <>
+      <div className="h-screen bg-green-300">
+        <Navbar />
+        <Home />
+      </div>
       <About />
       <Experience />
       <Education />
-    </div>
+    </>
   );
 };
 

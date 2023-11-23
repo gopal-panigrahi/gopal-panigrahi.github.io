@@ -3,7 +3,7 @@ import React from "react";
 
 function Navbar() {
   return (
-    <nav className="mx-auto flex w-1/2 space-x-4 rounded-b-md border-x-2 border-b-2 border-black bg-white p-4">
+    <nav className="mx-auto flex w-max space-x-4 rounded-b-md border-x-2 border-b-2 border-black bg-white p-4">
       <Link to="/#about" className="flex-1 text-center">
         About
       </Link>

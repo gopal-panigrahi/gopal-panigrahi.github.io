@@ -4,7 +4,7 @@ function Experience() {
   return (
     <div
       id="experience"
-      className="flex flex-row items-center border-y border-black"
+      className="flex flex-row items-center border-t border-black"
     >
       <h1 className="w-1/4 text-center text-2xl">Experience</h1>
       <div className="flex-1 py-4">

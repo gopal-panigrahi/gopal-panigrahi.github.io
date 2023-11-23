@@ -2,8 +2,8 @@ import React from "react";
 
 function Home() {
   return (
-    <div className="flex h-screen flex-row-reverse items-center justify-center">
-      <div className="flex flex-col justify-center">
+    <div className="flex h-full justify-center">
+      <div className="mt-32 flex flex-col">
         <h1 className="text-center text-8xl">
           GOPAL <br /> PANIGRAHI
         </h1>
