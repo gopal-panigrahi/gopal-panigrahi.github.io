@@ -3,6 +3,7 @@ import type {HeadFC, PageProps} from "gatsby";
 import Navbar from "../components/Navbar/Navbar";
 import Home from "./Home";
 import About from "./About";
+import Experience from "./Experience";
 
 const IndexPage: React.FC<PageProps> = () => {
 	return (
@@ -10,6 +11,7 @@ const IndexPage: React.FC<PageProps> = () => {
 			<Navbar />
 			<Home />
 			<About />
+			<Experience />
 		</div>
 	);
 };

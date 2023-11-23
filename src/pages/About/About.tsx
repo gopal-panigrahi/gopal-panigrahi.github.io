@@ -3,7 +3,7 @@ import React from "react";
 function About() {
 	return (
 		<div className="flex items-center py-4">
-			<h3 className="w-1/4 text-center">About Me</h3>
+			<h1 className="w-1/4 text-center text-2xl">About Me</h1>
 			<p className="flex-1">
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in
 				iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla
