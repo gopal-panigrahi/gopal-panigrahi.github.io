@@ -9,6 +9,7 @@ const IndexPage: React.FC<PageProps> = () => {
 		<div className="h-screen bg-green-200">
 			<Navbar />
 			<Home />
+			<About />
 		</div>
 	);
 };
