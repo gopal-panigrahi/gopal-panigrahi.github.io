@@ -2,7 +2,10 @@ import React from "react";
 
 function Experience() {
   return (
-    <div className="flex flex-row items-center border-y border-black">
+    <div
+      id="experience"
+      className="flex flex-row items-center border-y border-black"
+    >
       <h1 className="w-1/4 text-center text-2xl">Experience</h1>
       <div className="flex-1 py-4">
         <div className="mb-4 w-11/12 rounded-lg border p-3">
