@@ -8,7 +8,7 @@ function Experience() {
     >
       <h1 className="w-1/4 text-center text-2xl">Experience</h1>
       <div className="flex-1 py-4">
-        <div className="mb-4 w-11/12 rounded-lg border p-4">
+        <div className="mb-4 w-11/12 rounded-lg border bg-white p-4">
           <div className="flex flex-row justify-between">
             <h3 className="text-xl font-medium">Persistent Systems</h3>
             <h5 className="text-sm">Jul 2023 - Present</h5>
@@ -39,7 +39,7 @@ function Experience() {
             </ul>
           </p>
         </div>
-        <div className="mb-4 w-11/12 rounded-lg border p-4">
+        <div className="mb-4 w-11/12 rounded-lg border bg-white p-4">
           <div className="flex flex-row justify-between">
             <h3 className="text-xl font-medium">Persistent Systems</h3>
             <h5 className="text-sm">Jul 2021 - Jul 2023</h5>
@@ -59,7 +59,7 @@ function Experience() {
             </ul>
           </p>
         </div>
-        <div className="mb-4 w-11/12 rounded-lg border p-4">
+        <div className="mb-4 w-11/12 rounded-lg border bg-white p-4">
           <div className="flex flex-row justify-between">
             <h3 className="text-xl font-medium">Persistent Systems</h3>
             <h5 className="text-sm">Jan 2021 - Jul 2021</h5>

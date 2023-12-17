@@ -5,17 +5,21 @@ import Home from "../components/Home";
 import About from "../components/About";
 import Experience from "../components/Experience";
 import Education from "../components/Education";
+import Background from "../components/Background";
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <>
-      <div className="h-screen bg-green-300">
-        <Navbar />
-        <Home />
+      <Background />
+      <div className="z-1 relative">
+        <div className="h-screen">
+          <Navbar />
+          <Home />
+        </div>
+        <About />
+        <Experience />
+        <Education />
       </div>
-      <About />
-      <Experience />
-      <Education />
     </>
   );
 };
